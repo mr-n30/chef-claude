@@ -3,7 +3,7 @@ A Chef AI to help users create a meal with any ingredients they have on hand. Th
 
 ---
 
-# Install
+## Install
 ```
 git clone https://github.com/mr-n30/chef-claude.git
 cd chef-claude
@@ -12,12 +12,12 @@ npm install
 
 ---
 
-# Usage
+## Usage
 ```
 npm run dev
 ```
 
 ---
 
-# Thanks for using!
+## Thanks for using!
 This is a project I created to help me learn React. Let me know what I can improve on. Thanks for using!
