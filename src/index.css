@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Inter, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#root {
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+  min-width: 400px;
+}
+
+.chef-claude-logo {
+  width: 100px;
+  height: 100px;
+}
+
+header > nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+}
+
+.chef-claude-brand-text {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.chef-claude-brand-link {
+  color: #0e1111;
+  text-decoration: none;
+}
+
+nav {
+  transition: transform .5s;
+}
+
+nav:hover {
+  transform: rotate(-3deg);
+}
+
+.add-ingredient-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.add-ingredient-button {
+  font-family: Inter, sans-serif;
+  padding: .35rem;
+  background-color: #0e1111;
+  color: white;
+  font-weight: 700;
+  border-radius: 8px;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.add-ingredient-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+.add-ingredient-form > input {
+  flex-grow: .8;
+  padding: .25rem;
+  border-radius: 8px;
+}
